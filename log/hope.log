@@ -1,0 +1,152 @@
+1206 09:40:55.009 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:40:55' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:40:55.087 - [32minfo[39m: RedeemPaymentTask.runTask start at : 2014-12-06 09:40:55
+1206 09:40:55.102 - [32minfo[39m: StatRechargeTask.runTask start at : 2014-12-06 09:40:55
+1206 09:40:55.133 - [32minfo[39m: query result >>>[{"id":1,"msg":"test消息","msgType":null,"startTime":"2014-12-03T06:51:31.000Z","nextPushTime":"2014-12-03T06:51:31.000Z","pushRate":10,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:40:55.149 - [32minfo[39m: ClientLog count >> 67
+1206 09:40:55.149 - [32minfo[39m: ClientLog totalPages >> 14
+1206 09:40:55.149 - [32minfo[39m: ClientLog count >> 21
+1206 09:40:55.618 - [32minfo[39m: RedeemPaymentTask.runTask complete at :2014-12-06 09:40:55
+1206 09:40:56.008 - [32minfo[39m: StatRechargeTask.runTask complete at :2014-12-06 09:40:56
+1206 09:40:58.925 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:40:58' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:40:58.925 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:40:58' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:40:58.941 - [32minfo[39m: query result >>>[]
+1206 09:40:58.941 - [32minfo[39m: query result >>>[{"id":1,"msg":"test消息","msgType":null,"startTime":"2014-12-03T06:51:31.000Z","nextPushTime":"2014-12-03T06:51:31.000Z","pushRate":10,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:40:59.066 - [32minfo[39m: all game server response success
+1206 09:41:00.938 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:41:00' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:41:00.938 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:41:00' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:41:00.938 - [32minfo[39m: query result >>>[]
+1206 09:41:00.953 - [32minfo[39m: query result >>>[{"id":3,"msg":"test消息111222","msgType":null,"startTime":"2014-12-03T07:01:34.000Z","nextPushTime":"2014-12-03T07:01:34.000Z","pushRate":10,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:41:01.062 - [32minfo[39m: all game server response success
+1206 09:41:07.882 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:41:05' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:41:07.882 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:41:07' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:41:07.897 - [32minfo[39m: query result >>>[]
+1206 09:41:07.897 - [32minfo[39m: query result >>>[{"id":1,"msg":"test消息","msgType":null,"startTime":"2014-12-03T06:51:31.000Z","nextPushTime":"2014-12-03T06:51:31.000Z","pushRate":10,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:41:08.022 - [32minfo[39m: all game server response success
+1206 09:41:08.958 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:41:08' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:41:08.958 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:41:08' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:41:08.958 - [32minfo[39m: query result >>>[]
+1206 09:41:08.958 - [32minfo[39m: query result >>>[{"id":3,"msg":"test消息111222","msgType":null,"startTime":"2014-12-03T07:01:34.000Z","nextPushTime":"2014-12-03T07:01:34.000Z","pushRate":10,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:41:09.083 - [32minfo[39m: all game server response success
+1206 09:41:10.972 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:41:10' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:41:10.972 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:41:10' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:41:10.972 - [32minfo[39m: query result >>>[]
+1206 09:41:10.972 - [32minfo[39m: query result >>>[{"id":1,"msg":"test消息","msgType":null,"startTime":"2014-12-03T06:51:31.000Z","nextPushTime":"2014-12-03T06:51:31.000Z","pushRate":10,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:41:11.096 - [32minfo[39m: all game server response success
+1206 09:41:15.986 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:41:15' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:41:15.986 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:41:15' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:41:15.986 - [32minfo[39m: query result >>>[]
+1206 09:41:15.986 - [32minfo[39m: query result >>>[{"id":3,"msg":"test消息111222","msgType":null,"startTime":"2014-12-03T07:01:34.000Z","nextPushTime":"2014-12-03T07:01:34.000Z","pushRate":10,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:41:16.111 - [32minfo[39m: all game server response success
+1206 09:41:20.984 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:41:20' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:41:20.984 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:41:20' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:41:20.984 - [32minfo[39m: query result >>>[{"id":4,"msg":"test消息333","msgType":null,"startTime":"2014-12-03T07:02:52.000Z","nextPushTime":"2014-12-03T07:02:52.000Z","pushRate":11,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:41:20.984 - [32minfo[39m: query result >>>[]
+1206 09:41:21.117 - [32minfo[39m: all game server response success
+1206 09:41:25.992 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:41:25' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:41:25.992 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:41:25' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:41:25.992 - [32minfo[39m: query result >>>[]
+1206 09:41:25.992 - [32minfo[39m: query result >>>[{"id":4,"msg":"test消息333","msgType":null,"startTime":"2014-12-03T07:02:52.000Z","nextPushTime":"2014-12-03T07:02:52.000Z","pushRate":11,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:41:26.117 - [32minfo[39m: all game server response success
+1206 09:41:30.997 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:41:30' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:41:30.997 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:41:30' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:41:30.997 - [32minfo[39m: query result >>>[]
+1206 09:41:31.013 - [32minfo[39m: query result >>>[{"id":4,"msg":"test消息333","msgType":null,"startTime":"2014-12-03T07:02:52.000Z","nextPushTime":"2014-12-03T07:02:52.000Z","pushRate":11,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:41:31.122 - [32minfo[39m: all game server response success
+1206 09:41:36.018 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:41:36' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:41:36.018 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:41:36' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:41:36.018 - [32minfo[39m: query result >>>[]
+1206 09:41:36.018 - [32minfo[39m: query result >>>[{"id":1,"msg":"test消息","msgType":null,"startTime":"2014-12-03T06:51:31.000Z","nextPushTime":"2014-12-03T06:51:31.000Z","pushRate":10,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:41:36.154 - [32minfo[39m: all game server response success
+1206 09:41:40.036 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:41:40' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:41:40.036 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:41:40' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:41:40.036 - [32minfo[39m: query result >>>[]
+1206 09:41:40.051 - [32minfo[39m: query result >>>[{"id":1,"msg":"test消息","msgType":null,"startTime":"2014-12-03T06:51:31.000Z","nextPushTime":"2014-12-03T06:51:31.000Z","pushRate":10,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:41:40.172 - [32minfo[39m: all game server response success
+1206 09:41:45.044 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:41:45' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:41:45.044 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:41:45' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:41:45.044 - [32minfo[39m: query result >>>[]
+1206 09:41:45.044 - [32minfo[39m: query result >>>[{"id":4,"msg":"test消息333","msgType":null,"startTime":"2014-12-03T07:02:52.000Z","nextPushTime":"2014-12-03T07:02:52.000Z","pushRate":11,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:41:45.169 - [32minfo[39m: all game server response success
+1206 09:41:50.058 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:41:50' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:41:50.058 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:41:50' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:41:50.058 - [32minfo[39m: query result >>>[]
+1206 09:41:50.058 - [32minfo[39m: query result >>>[{"id":4,"msg":"test消息333","msgType":null,"startTime":"2014-12-03T07:02:52.000Z","nextPushTime":"2014-12-03T07:02:52.000Z","pushRate":11,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:41:50.189 - [32minfo[39m: all game server response success
+1206 09:41:55.077 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:41:55' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:41:55.077 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:41:55' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:41:55.077 - [32minfo[39m: query result >>>[]
+1206 09:41:55.077 - [32minfo[39m: query result >>>[{"id":4,"msg":"test消息333","msgType":null,"startTime":"2014-12-03T07:02:52.000Z","nextPushTime":"2014-12-03T07:02:52.000Z","pushRate":11,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:41:55.210 - [32minfo[39m: all game server response success
+1206 09:42:00.085 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:42:00' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:42:00.085 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:42:00' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:42:00.085 - [32minfo[39m: query result >>>[]
+1206 09:42:00.101 - [32minfo[39m: query result >>>[{"id":3,"msg":"test消息111222","msgType":null,"startTime":"2014-12-03T07:01:34.000Z","nextPushTime":"2014-12-03T07:01:34.000Z","pushRate":10,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:42:00.210 - [32minfo[39m: all game server response success
+1206 09:42:05.087 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:42:05' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:42:05.087 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:42:05' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:42:05.087 - [32minfo[39m: query result >>>[]
+1206 09:42:05.087 - [32minfo[39m: query result >>>[{"id":1,"msg":"test消息","msgType":null,"startTime":"2014-12-03T06:51:31.000Z","nextPushTime":"2014-12-03T06:51:31.000Z","pushRate":10,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:42:05.211 - [32minfo[39m: all game server response success
+1206 09:42:52.877 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:42:52' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:42:52.955 - [32minfo[39m: RedeemPaymentTask.runTask start at : 2014-12-06 09:42:52
+1206 09:42:52.970 - [32minfo[39m: StatRechargeTask.runTask start at : 2014-12-06 09:42:52
+1206 09:42:53.001 - [32minfo[39m: query result >>>[{"id":3,"msg":"test消息111222","msgType":null,"startTime":"2014-12-03T07:01:34.000Z","nextPushTime":"2014-12-03T07:01:34.000Z","pushRate":10,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:42:53.017 - [32minfo[39m: ClientLog count >> 67
+1206 09:42:53.017 - [32minfo[39m: ClientLog totalPages >> 14
+1206 09:42:53.017 - [32minfo[39m: ClientLog count >> 21
+1206 09:42:53.391 - [32minfo[39m: RedeemPaymentTask.runTask complete at :2014-12-06 09:42:53
+1206 09:42:53.906 - [32minfo[39m: StatRechargeTask.runTask complete at :2014-12-06 09:42:53
+1206 09:42:54.967 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:42:54' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:42:54.967 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:42:54' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:42:54.983 - [32minfo[39m: query result >>>[]
+1206 09:42:54.983 - [32minfo[39m: query result >>>[{"id":3,"msg":"test消息111222","msgType":null,"startTime":"2014-12-03T07:01:34.000Z","nextPushTime":"2014-12-03T07:01:34.000Z","pushRate":10,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:42:55.107 - [32minfo[39m: all game server response success
+1206 09:42:55.968 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:42:55' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:42:55.968 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:42:55' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:42:55.968 - [32minfo[39m: query result >>>[]
+1206 09:42:55.984 - [32minfo[39m: query result >>>[{"id":1,"msg":"test消息","msgType":null,"startTime":"2014-12-03T06:51:31.000Z","nextPushTime":"2014-12-03T06:51:31.000Z","pushRate":10,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:42:56.093 - [32minfo[39m: all game server response success
+1206 09:43:28.215 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:43:00' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:43:28.230 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:43:28' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:43:28.230 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:43:28' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:43:28.230 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:43:28' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:43:28.246 - [32minfo[39m: query result >>>[]
+1206 09:43:28.246 - [32minfo[39m: query result >>>[]
+1206 09:43:28.246 - [32minfo[39m: query result >>>[{"id":4,"msg":"test消息333","msgType":null,"startTime":"2014-12-03T07:02:52.000Z","nextPushTime":"2014-12-03T07:02:52.000Z","pushRate":11,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:43:28.246 - [32minfo[39m: query result >>>[{"id":4,"msg":"test消息333","msgType":null,"startTime":"2014-12-03T07:02:52.000Z","nextPushTime":"2014-12-03T07:02:52.000Z","pushRate":11,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:43:28.355 - [32minfo[39m: all game server response success
+1206 09:43:28.371 - [32minfo[39m: all game server response success
+1206 09:43:30.250 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:43:30' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:43:30.250 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:43:30' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:43:30.250 - [32minfo[39m: query result >>>[]
+1206 09:43:30.250 - [32minfo[39m: query result >>>[{"id":1,"msg":"test消息","msgType":null,"startTime":"2014-12-03T06:51:31.000Z","nextPushTime":"2014-12-03T06:51:31.000Z","pushRate":10,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:43:30.374 - [32minfo[39m: all game server response success
+1206 09:43:35.252 - [32minfo[39m: AnnouncementTask.scanWhetherNeedPushAnnouncement ==>select * from Announcements where nextPushTime < '2014-12-06 09:43:35' and isAn = 0 and pushDayOfWeek like '%6%'
+1206 09:43:35.252 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:43:35' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:43:35.252 - [32minfo[39m: query result >>>[]
+1206 09:43:35.252 - [32minfo[39m: query result >>>[{"id":4,"msg":"test消息333","msgType":null,"startTime":"2014-12-03T07:02:52.000Z","nextPushTime":"2014-12-03T07:02:52.000Z","pushRate":11,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:43:35.376 - [32minfo[39m: all game server response success
+1206 09:44:00.208 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:44:00' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:44:00.286 - [32minfo[39m: RedeemPaymentTask.runTask start at : 2014-12-06 09:44:00
+1206 09:44:00.286 - [32minfo[39m: StatRechargeTask.runTask start at : 2014-12-06 09:44:00
+1206 09:44:00.317 - [32minfo[39m: query result >>>[{"id":3,"msg":"test消息111222","msgType":null,"startTime":"2014-12-03T07:01:34.000Z","nextPushTime":"2014-12-03T07:01:34.000Z","pushRate":10,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:44:00.333 - [32minfo[39m: ClientLog count >> 67
+1206 09:44:00.333 - [32minfo[39m: ClientLog totalPages >> 14
+1206 09:44:00.333 - [32minfo[39m: ClientLog count >> 21
+1206 09:44:00.770 - [32minfo[39m: RedeemPaymentTask.runTask complete at :2014-12-06 09:44:00
+1206 09:44:01.191 - [32minfo[39m: StatRechargeTask.runTask complete at :2014-12-06 09:44:01
+1206 09:45:15.053 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:45:15' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:45:15.162 - [32minfo[39m: RedeemPaymentTask.runTask start at : 2014-12-06 09:45:15
+1206 09:45:15.162 - [32minfo[39m: StatRechargeTask.runTask start at : 2014-12-06 09:45:15
+1206 09:45:15.216 - [32minfo[39m: query result >>>[{"id":1,"msg":"test消息","msgType":null,"startTime":"2014-12-03T06:51:31.000Z","nextPushTime":"2014-12-03T06:51:31.000Z","pushRate":10,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:45:15.231 - [32minfo[39m: ClientLog count >> 21
+1206 09:45:15.251 - [32minfo[39m: ClientLog count >> 67
+1206 09:45:15.252 - [32minfo[39m: ClientLog totalPages >> 14
+1206 09:45:15.759 - [32minfo[39m: RedeemPaymentTask.runTask complete at :2014-12-06 09:45:15
+1206 09:45:16.351 - [32minfo[39m: StatRechargeTask.runTask complete at :2014-12-06 09:45:16
+1206 09:46:24.620 - [32minfo[39m: PushMsgTask.scanWhetherNeedPush ==>select * from PushMsgs where nextPushTime < '2014-12-06 09:46:24' and pushFlag = 1 and pushDayOfWeek like '%6%' order by rand() limit 1 
+1206 09:46:24.729 - [32minfo[39m: query result >>>[{"id":4,"msg":"test消息333","msgType":null,"startTime":"2014-12-03T07:02:52.000Z","nextPushTime":"2014-12-03T07:02:52.000Z","pushRate":11,"pushType":1,"pushDayOfWeek":"1,2,3,4,5,6,7","pushFlag":1}]
+1206 09:47:40.890 - [32minfo[39m: StatClientbehavioursTask.runTask start at : 2014-12-06 09:47:40
+1206 09:47:55.053 - [32minfo[39m: StatClientbehavioursTask.runTask complete at :2014-12-06 09:47:55
+1206 09:47:55.055 - [32minfo[39m: statClientbehavioursTask Complete---
+1206 09:47:55.056 - [32minfo[39m: All task complete

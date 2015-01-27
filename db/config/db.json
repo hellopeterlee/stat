@@ -1,0 +1,64 @@
+{
+    "test":
+    {
+        "host": "localhost",
+        "database": "goldminer_stat_test",
+        "username": "root",
+        "password": "123456",
+        "port": 3306,
+        "logging": true,
+        "maxConcurrentQueries": 100,
+        "omitNull": true,
+        "sync": {
+            "force": false
+        },
+        "syncOnAssociation": true,
+        "pool": {
+            "maxConnections": 100,
+            "maxIdleTime": 1000
+        },
+        "language": "en"
+    },
+
+    "dev":
+    {
+        "host": "localhost",
+        "database": "goldminer_stat_dev",
+        "username": "root",
+        "password": "",
+        "port": 3306,
+        "logging": true,
+        "maxConcurrentQueries": 100,
+        "omitNull": true,
+        "sync": {
+            "force": false
+        },
+        "syncOnAssociation": true,
+        "pool": {
+            "maxConnections": 100,
+            "maxIdleTime": 1000
+        },
+        "language": "en"
+    },
+
+    "production":
+    {
+        "host": "localhost",
+        "database": "goldminer_stat_prod",
+        "username": "root",
+        "password": "",
+        "port": 3306,
+        "logging": false,
+        "maxConcurrentQueries": 100,
+        "omitNull": true,
+        "sync": {
+            "force": false
+        },
+        "syncOnAssociation": true,
+        "pool": {
+            "maxConnections": 100,
+            "maxIdleTime": 1000
+        },
+        "language": "en"
+    }
+}
